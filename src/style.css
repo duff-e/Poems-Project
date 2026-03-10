@@ -1,0 +1,62 @@
+body {
+  background: #e9edc9;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #cda2b9;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px;
+  line-height: 1.5;
+  font-size: 38px;
+}
+
+form {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+.generator {
+  font-size: 15px;
+  border-radius: 55px;
+  border: 1px solid #edc9dd;
+  padding: 12px;
+  width: 70%;
+}
+
+.submit-button {
+  font-size: 15px;
+  border-radius: 55px;
+  background: #edc9dd;
+  padding: 15px 35px;
+  border: none;
+  margin-left: 10px;
+}
+
+.poem {
+  background-color: white;
+  font-size: 15px;
+  line-height: 2;
+  padding: 30px;
+  border-left: 4px solid #edc9dd;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 25px;
+}
