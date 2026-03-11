@@ -22,12 +22,21 @@ h1 {
   font-size: 38px;
 }
 
-form {
-  text-align: center;
+.form-container {
   background-color: white;
-  padding: 30px;
+  padding: 20px;
   margin-bottom: 25px;
   border-radius: 10px;
+}
+
+form {
+  display: flex;
+}
+
+.suggestions {
+  font-size: 12px;
+  opacity: 0.5;
+  margin: 7px 0 0 16px;
 }
 
 .generator {
@@ -53,6 +62,10 @@ form {
   line-height: 2;
   padding: 30px;
   border-left: 4px solid #edc9dd;
+}
+
+.hidden {
+  display: none;
 }
 
 .poem strong {

@@ -14,18 +14,21 @@
         <h1>AI Poem Generator</h1>
       </header>
       <main>
-        <form id="poem-form">
-          <input
-            type="text"
-            placeholder="Enter a topic for a poem"
-            autofocus
-            required
-            class="generator"
-            id="generator"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-form">
+            <input
+              type="text"
+              placeholder="Generate a poem about..."
+              autofocus
+              required
+              class="generator"
+              id="generator"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="suggestions">i.e: Love, Nature, Books</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
